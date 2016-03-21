@@ -1,0 +1,22 @@
+<html ng-app='customerOrders_app'>
+	<head>
+		<title>Customer Orders Assign</title>
+		<link rel='stylesheet' href='./static/style.css'>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.min.js"></script>
+		<script type="text/javascript" src="./js/model/customerFactory.js"></script>
+		<script type="text/javascript" src="./js/model/orderFactory.js"></script>
+		<script type="text/javascript" src="./js/controller/customersController.js"></script>
+		<script type="text/javascript" src="./js/controller/ordersController.js"></script>
+		<script type="text/javascript" src="./js/config/routes.js"></script>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<div id='container'>
+			<a href='#/customers'>Customers</a> | <a href='#/orders'>Orders</a>
+			<div ng-view=''></div>
+		</div>
+	</body>
+</html>
